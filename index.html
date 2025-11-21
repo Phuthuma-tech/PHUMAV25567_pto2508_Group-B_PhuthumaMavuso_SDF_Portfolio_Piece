@@ -8,13 +8,20 @@
 
     <title>SDF Portfolio</title>
 </head>
-<body class="bg-[#DADADA]/50 backdrop-blur-sm p-6 rounded-lg">
+<body>
+<div class="h-screen bg-cover bg-center" style="background-image: url('./background.png')">
+     <h1 class="text-white text-4xl font-bold p-10"></h1>
+
+
+
     <!--== PROFILE SECTION ==-->
+<section class="grid grid-cols- gap-4">
     
     <header class="bg-white p-6 rounded-[12px] shadow-[0_0_3px_#DADADA] grid grid-cols-2">
         <div class="w-[144px] h-[144px] rounded-[24px] overflow-hidden">
             <img src="profileimage.jpg" alt="profile-image"/>
         </div>
+    
 
         <div class="profile-info">
             <h1 class="font-bold text-[22px] font-[Inter] text-black text-left mb-4">Phuthuma Mavuso</h1>
@@ -38,7 +45,7 @@
             </div>
 
 
-            <ul class="bg-white p-5 rounded-[12px] shadow-[0_0_2px_#DADADA]">
+            <ul class="bg-white p-5 rounded-[12px]">
                 <li><label for="file">JavaScript</label><progress id="file" value="10" max="100"> 10% </progress></li>
                 <li><label for="file">React</label><progress id="file" value="5" max="100"> 5% </progress></li>
                 <li><label for="file">HTML</label><progress id="file" value="87" max="100"> 87% </progress></li>
@@ -56,27 +63,31 @@
 
     <!--== SKILLS SECTION ==-->
 
-    <div class="bg-white p-6 rounded-[12px]"">
+    <div class="bg-white p-6 rounded-[12px]">
+      
         <h2>Skills</h2>
-        
+
+         <div class="max-w-xl mx-auto bg-white p-6 rounded-lg">
+
 
         
 
-        <ul>
-            <li>Software Developlment</span></li>
-            <li>Agile</span></li>
-            <li>UI Design</span></li>
-            <li>Problem Solving</span></li>
-            <li>Git and Version Control</span></li>
-            <li>Web Development</span></li>
-            <li>Team Collaboration</span></li>
-            <li>Funtional Programming</span></li>
-            <li>Data Analysis</span></li>
-            <li>Data Visualization</span></li>
-            <li>Modelling</span></li>
-            <li>Data Science</span></li>
+          <ul  class="flex flex-wrap gap-3">
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Software Developlment</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Agile</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">UI Design</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Problem Solving</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Git and Version Control<li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Web Development</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Team Collaboration</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Funtional Programming</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Data Analysis</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Data Visualization</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Modelling</li>
+            <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Data Science</li>
             
-        </ul>
+          </ul>
+         </div>
     
 
 
@@ -135,48 +146,51 @@
         <div>
             <h2>Education</h2>
             <div class="flex justify-center">
-                
-                    <div>
-                        <h6 class="text-sm text-gray-600">Sep. 2025 – Apr. 2026</h6>
-                        <p class="text-lg font-bold mb-2">CodeSpace Academy</p>
-                        <p class="text-sm text-gray-600">Software Development |</p>
-                        <p>Part-time</p>
+                <div  class="bg-emerald-600 p-6 rounded-[12px] flex">
+                    <div class="w-1/2 p-4">
+                        <p class="font-poppins text-tiny text-white">Sep. 2025 – Apr. 2026</p>
+                        <p class="font-[Poppins] text-[10px] font-medium text-[#ffffff]">CodeSpace Academy</p>
+                        <p class="font-poppins text-tiny text-white">Software Development | Part-time</p>
 
                     </div>
 
-                    <div>
+                    <div class="w-1/2 p-4">
                         <ul>
-                            <li>Focused on React and JavaScript  to build intuitive, dynamic web applications</li>
-                            <li>Collaborated with peers on real-world personal projects, reefing teamwork and coding best practices</li>
-                            <li>Gained hands-on-experience with cutting-edge web technologies and development tools</li>
+                            <li class="font-poppins text-xxs text-[#ffffff]">Focused on React and JavaScript to build intuitive, dynamic web applications</li>
+                            <li class="font-poppins text-xxs text-[#ffffff]">Collaborated with peers on real-world personal projects, reefing teamwork and coding best practices</li>
+                            <li class="font-poppins text-xxs text-[#ffffff]">Gained hands-on-experience with cutting-edge web technologies and development tools</li>
                         </ul>
                     </div>
+                </div>
             </div>
         </div>
+        <div>
             <div class="flex justify-center">
-                <div>
+                <div class="bg-#ffffff p-6 rounded-[12px] flex">
+                    <div class="w-1/2 p-4">
 
-                    <h6>Feb. 2022 – Dec. 2022</h6>
-                    <p>ExploreAI |</p>
-                    <p>Data Science</p>
-                    <p>Full-time</p>
+                        <p class="font-poppins text-tiny text-[#000000]">Feb. 2022 – Dec. 2022</p>
+                        <p class="font-[Poppins] text-[10px] font-medium text-[#000000]">ExploreAI </p>
+                        <p class="font-poppins text-tiny text-[#000000]"></p>>Data Science | Full-time</p>
+                    </div>
                 </div>
-                <div>
+                <div class="w-1/2 p-4">
                     <ul>
-                        <li>Learned data analysis and statistical methods for interpreting datasets.</li>
-                        <li>Gained skills in Python, R, and SQL for data manipulation and visualization.</li>
-                        <li>Studied machine learning algorithms and model evaluation techniques.</li>
-                        <li>Applied data cleaning and preprocessing to ensure accuracy.</li>
+                        <li class= "font-poppins text-xxs text-[#ffffff]">Learned data analysis and statistical methods for interpreting datasets.</li>
+                        <li class= "font-poppins text-xxs text-[#ffffff]">Gained skills in Python, R, and SQL for data manipulation and visualization.</li>
+                        <li class= "font-poppins text-xxs text-[#ffffff]">Studied machine learning algorithms and model evaluation techniques.</li>
+                        <li class= "font-poppins text-xxs text-[#ffffff]">Applied data cleaning and preprocessing to ensure accuracy.</li>
                     </ul>
                 </div>
             </div>
+        </div>
+        <div>
         
             <div class="flex justify-center">
                 <div>
                     <h6>Feb. 2016 – Dec. 2020</h6>
-                    <p>University for the Witwatersrand |</p>
-                    <p>Bachelor of Economic Science</p>
-                    <p>Full-time</p>
+                    <p>University for the Witwatersrand</p>
+                    <p>Bachelor of Economic Science | Full-time</p>
                 </div>
                 <div>
                     <ul>
@@ -192,8 +206,8 @@
                 <p>Design</p>
                 <div>
                      <ul class="no-bullets">
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></li>
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" /></li>
                        <li></li>
                     </ul> 
 
@@ -202,9 +216,9 @@
                 <p>Software</p>
                 <div>
                      <ul class="no-bullets">
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></li>
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></li>
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" /></li>
                     </ul>
 
 
@@ -212,12 +226,12 @@
                 <p>Languages</p>
                 <div>
                      <ul class="no-bullets">
-                       <li> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></li>
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></li>
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /></li>
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></li>
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></li>
-                       <li><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></li>
+                       <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" /></li>
                     </ul>
 
 
@@ -310,6 +324,8 @@
         <!--== END OF CONTACT SECTION-->
 
     </footer>
+</section>
+</div>
 
 
 
