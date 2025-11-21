@@ -1,38 +1,10 @@
 
- 🎨Link to Figma Reference File: https://www.figma.com/design/fM2tutgIH0k1SrNir4MVe3/SDF-Resume-Project-STUDENT-REFERENCE-FILE?node-id=0-1&t=yGSXI1yv4AgjKBvA-1
 
----
+### 🎙️  Recorded Presentation 
+https://www.loom.com/share/7512f25e0f8d4d8fa33362a31491a12f
 
-## 🧪 How You’ll Be Marked
 
-Your project will be assessed using **two components**:
 
-### ✅ 1. Code & Layout Marking 
-Each section of your resume site is scored based on:
-- Use of semantic HTML and correct structure
-- Accurate styling, spacing, typography, and colour matching the Figma
-- Pixel accuracy for layout and alignment
-- Responsive layout on mobile screens
-- Clean and well-structured code
-- Functional and visually polished components
-- Accessibility (e.g., alt text for images and icons)
-
-> A full breakdown of the scoring rubric is available on your Dashboard. Each feature is mapped to a clear user story and assigned a difficulty rating. Some features offer bonus points for pixel-perfection ✨
-
-### 🎙️ 2. Recorded Presentation 
-You must record a **5–10 minute** screen presentation of your project using Loom, OBS, or any screen recorder.
-
-You will be scored on:
-- How well you explain your code and decisions
-- Understanding and communication of the project brief
-- Visual walkthrough of your site and responsiveness
-- Presentation skills (confidence, clarity, visual aids)
-
-📎 [View the Presentation Template Here](https://github.com/CodeSpace-Academy/SDFPP-2025/blob/main/project%20guide/presentation_template.md)
-
----
-
-## ✅ Submission Requirements
 
 
 
