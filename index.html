@@ -11,7 +11,7 @@
 <body>
 <div class = "bg-cover bg-center" style="background-image: url('./background.png')">
 
-    <div class="mx-15 my-10">
+    <div class="px-[2.625rem] 1440:px-[3.75rem]">
         
 
 
@@ -19,17 +19,20 @@
         <!--== PROFILE SECTION ==-->
 
     
-        <header class="bg-white p-6 rounded-[12px] shadow-[0_0_3px_#DADADA] grid grid-cols-2">
-            <div class="w-[144px] h-[144px] rounded-[24px] overflow-hidden">
-                <img src="profileimage.jpg" alt="profile-image"/>
+        <header class=" pt-[1rem] flex flex-row gap-[0.125rem]">
+            <div class>
+                <img class="w-[10rem] h-[10rem] rounded-[0.75rem] overflow-hidden min-[1440px]:w-[18.75rem] h-auto object-cover " src="profileimage.jpg" alt="profile-image"/>
             </div>
     
 
-            <div class="profile-info">
-                <h1 class="font-bold text-[22px] font-[Inter] text-black text-left mb-4">Phuthuma Mavuso</h1>
-                <p class="text-[16px] leading-[24px] font-[Inter] font-normal text-[#4A4A4A] max-w-[520px]">
-                    I’m a passionate software developer with deep expertise in JavaScript and React, continually driven to craft dynamic, user‑focused applications that leave a lasting impression
+            <div class=" w-full bg-white p-[0.375rem] min-[1440px]:p-[2.5rem] rounded-[0.75rem] shadow-[0_0_3px_#DADADA] ">
+                <h1 class="font-bold text-[1rem] font-[Inter] text-black text-left mb-0 block max-[1439px]:block min-[1440px]:hidden">Phuthuma Mavuso</h1>
+                <h1 class="hidden xl:block font-bold text-[2.25rem] font-[Inter] text-black text-left mb-0">Phuthuma Mavuso</h1>
+                <p class="text-[0.625rem] font-[Inter] font-normal font-weight[400] block max-[1440px]:block min-[1439px]:hidden
+                 text-[#4A4A4A]"> I’m a passionate software developer skilled in JavaScript and React.
                 </p>
+                <p class="hidden xl:block text-[1.375rem] font-[Inter] font-normal font-weight[400]
+                 text-[#4A4A4A]">I am a passionate and dedicated software developer with a strong foundation in JavaScript and React. With hands-on experience in building dynamic and responsive web applications, I excel at transforming complex requirements into intuitive user interfaces. .</p>
 
             </div>
 
@@ -37,63 +40,93 @@
         <!--== END OF PROFILE SECTION ==-->
 
         <!--== PROFICIENCY SECTION ==-->
-        <div class="bg-white p-6 rounded-[12px] my-4">
-            <div >
-                <h2 class="font text-[22px] font-[Inter] text-black text-left mb-4">Proficiency</h2>
-                <div class="flex gap-8">
-                    <span>Beginner</span>
-                        <span>Intermediate</span>
-                    <span>Advance*</span>
+        <div class="min-[1440px]:grid grid-cols-2 gap-[3.875rem]">
+            <div class="px-[2.625rem] bg-white p-[0.5rem] rounded-[12px] my-4">
+        
+                <div>
+                    <h2 class="font text-[0.875rem] font-[Inter] font-medium text-black text-left mb-[1rem] min-[1440px]:text-[2.125rem] ">Proficiency</h2>
+                    <div class="flex gap-[0.50rem] mb-[1rem]">
+                        <span class="font text-[0.625rem] font-[Inter] font-normal min-[1440px]:text-[1.5rem]">Beginner</span>
+                            <span  class="font text-[0.625rem] font-[Inter] font-normal min-[1440px]:text-[1.5rem]" >Intermediate</span>
+                        <span  class="font text-[0.625rem] font-[Inter] font-normal min-[1440px]:text-[1.5rem]">Advance*</span>
+                    </div>
+                
+                    <div class="grid grid-cols-3 gap-[0.5rem]">
+
+                        <div>
+                            <ul class="flex flex-col space-y-1 mt-[0.5rem]">
+                                <li class="font text-[0.625rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem] " ><label for="file">JavaScript</label></li>
+                                <li class="font text-[0.625rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]" ><label for="file">React</label></li>
+                                <li class="font text-[0.625rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]" ><label for="file">HTML</label></li>
+                                <li class="font text-[0.625rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]" ><label for="file">Python</label></li>
+                                <li class="font text-[0.625rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]" ><label for="file">R</label></li>
+                                <li class="font text-[0.625rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]" ><label for="file">SQL</label></li>
+                            </ul>
+
+                        </div>
+
+                        <div class="col-span-2 ">
+                            <div class="mb-0 h-[0.6875rem] w-[10rem] bg-white rounded-full min-[1440px]:h-[1.75rem]"></div>
+                            <div class="h-2 bg-[#4A8B70] rounded-[0.1875rem] transition-all duration-500 ease-out"style="width: 50%"></div>
+                            <div class="mb-0 h-[0.6875rem] w-[10rem] bg-white rounded-full min-[1440px]:h-[1.75rem]"></div>
+                            <div class="h-2 bg-[#4A8B70] rounded-[0.1875rem] transition-all duration-500 ease-out"style="width: 70%"></div>
+                            <div class="mb-0 h-[0.6875rem] w-[10rem] bg-white rounded-full min-[1440px]:h-[1.75rem]"></div>
+                            <div class="h-2 bg-[#4A8B70] rounded-[0.1875rem] transition-all duration-500 ease-out"style="width: 80%"></div>
+                            <div class="mb-0 h-[0.6875rem] w-[10rem] bg-white rounded-full min-[1440px]:h-[1.75rem]"></div>
+                            <div class="h-2 bg-[#4A8B70] rounded-[0.1875rem] transition-all duration-500 ease-out"style="width: 85%"></div>
+                            <div class="mb-0 h-[0.6875rem] w-[10rem] bg-white rounded-full min-[1440px]:h-[1.75rem]"></div>
+                            <div class="h-2 bg-[#4A8B70] rounded-[0.1875rem] transition-all duration-500 ease-out"style="width: 72%"></div>
+                            <div class="mb-0 h-[0.6875rem] w-[10rem] bg-white rounded-full min-[1440px]:h-[1.75rem]"></div>
+                            <div class="h-2 bg-[#4A8B70] rounded-[0.1875rem] transition-all duration-500 ease-out"style="width: 72%"></div>
+
+                        </div>
+                        <div>
+
+                        </div>
+
+
+                    </div>
                 </div>
-
-
-                <ul class="bg-white p-5 rounded-[12px]">
-                    <li><label for="file">JavaScript</label><progress id="file" value="10" max="100"> 10% </progress></li>
-                    <li><label for="file">React</label><progress id="file" value="5" max="100"> 5% </progress></li>
-                    <li><label for="file">HTML</label><progress id="file" value="87" max="100"> 87% </progress></li>
-                    <li><label for="file">Python</label><progress id="file" value="69" max="100"> 69% </progress></li>
-                    <li><label for="file">R</label><progress id="file" value="45" max="100"> 45% </progress></li> 
-                    <li><label for="file">SQL</label><progress id="file" value="37" max="100"> 37% </progress></li>
-                </ul>
             </div>
 
-        </div>
-
-
-
-    <!--== END OF PROFICIENCY SECTION ==-->
-
-    <!--== SKILLS SECTION ==-->
-
-        <div class="bg-white p-6 rounded-[12px] my-4">
             
-            <h2 class="font text-[22px] font-[Inter] text-black text-left mb-4">Skills</h2>
-
-             <div class="max-w-xl mx-auto bg-white p-6 rounded-lg">
 
 
-                
 
-              <ul  class="flex flex-wrap gap-3">
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Software Developlment</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Agile</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">UI Design</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Problem Solving</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Git and Version Control<li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Web Development</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Team Collaboration</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Funtional Programming</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Data Analysis</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Data Visualization</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Modelling</li>
-                <li class="bg-gray-300 text-black px-4 py-2 rounded-full">Data Science</li>
-            
-              </ul>
-             </div>
+            <!--== END OF PROFICIENCY SECTION ==-->
+
+            <!--== SKILLS SECTION ==-->
+
+            <div class="bg-white p-6 rounded-[12px] my-2">
+
+                <h2 class="font text-[0.875rem] font-[Inter] font-medium text-black text-left mb-[1rem] min-[1440px]:text-[2.125rem]">Skills</h2>
+
+                <div class="max-w-xl mx-auto bg-white p-[0.75rem] rounded-lg">
+
+
+
+
+                    <ul  class="flex flex-wrap gap-[0.5rem]">
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Software Developlment</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Agile</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">UI Design</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Problem Solving</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Git and Version Control</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Web Development</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Team Collaboration</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Funtional Programming</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Data Analysis</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Data Visualization</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Modelling</li>
+                        <li class="bg-gray-300 text-black px-[0.25rem] py-[0.25rem] rounded-full font text-[0.625rem] min-[1440px]:text-[1.5rem]">Data Science</li>
+                    
+                    </ul>
+                </div>
+            </div>
     
 
 
-       </div>
+        </div>
 
 
 
@@ -102,44 +135,49 @@
         <!--== PROJECTS SECTION ==-->
         <div>
             <div class="bg-white p-6 rounded-[12px] my-4">
-            <h2 class="font text-[22px] font-[Inter] text-black text-center mb-4">Projects</h2>
-                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 max-w-5xl mx-auto">
+            <h2  class="font text-[0.875rem] font-[Inter] font-medium text-black text-left mb-[1rem] min-[1440px]:text-[2.125rem]">Projects</h2>
+                <div class="grid grid-cols-2 sm:grid-cols-2 gap-[0.625rem] md:grid-cols-4 gap-[2rem] max-w-5xl mx-auto">
 
 
-                    <div class="bg-emerald-600 p-6 rounded-[12px]">
-                        <p>2025</p>
-                        <p>Portfolio Website</p>
+                    <div class="bg-[#4A8B70] p-[0.625rem]   rounded-[0.75rem]">
+                        <div class="flex justify-between">
+                            <p class="text-white text-[0.75rem] font-[Inter] font-medium pb-[0.625rem] min-[1440px]:text-[1.5rem]">2025</p>
+                            <span class="text-[0.75rem] text-blue-500">❤</span>
+                            
+
+                        </div>
+                        <p class="text-white text-[0.75rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]">Portfolio Website</p>
                         <ul>
-                            <li>Brief: Developed a personal portfolio website to showcase projects and skills.</li>
-                            <li>Technologies: React, JavaScript, HTML, CSS</li>
-                            <li>Responsibilities: Designed and implemented the website, ensured responsiveness and accessibility</li>
+                            <li class="text-white text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Brief:</strong> Developed a personal portfolio website to showcase projects and skills.</li>
+                            <li class="text-white text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Technologies:</strong> React, JavaScript, HTML, CSS</li>
+                            <li class="text-white text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Responsibilities:</strong> Designed and implemented the website, ensured responsiveness and accessibility</li>
                         </ul>
                     </div>
-                    <div class="bg-white p-6 rounded-[12px]">
-                        <p>2022</p>
-                        <p>Movie Recommender System</p>
+                    <div class="bg-[#E7F0EC] p-[0.625rem]  rounded-[0.75rem]">
+                        <p class="text-[0.75rem] font-[Inter] font-medium pb-[0.625rem] min-[1440px]:text-[1.5rem]">2022</p>
+                        <p class="text-[0.75rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]">Movie Recommender System</p>
                         <ul>
-                            <li>Brief: Developed a recommender system similar to of streaming service.</li>
-                            <li>Technologies: Python, AWS</li>
-                            <li>Responsibilities: Developed and implemented the recommendation and deployed on EC2</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Brief:</strong> Developed a recommender system similar to of streaming service.</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Technologies:</strong> Python, AWS</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Responsibilities:</strong> Developed and implemented the recommendation and deployed on EC2</li>
                         </ul>
                     </div>
-                    <div class="bg-white p-6 rounded-[12px]">
-                        <p>2022</p>
-                        <p>Tweet Classifier</p>
+                    <div class="bg-[#E7F0EC] p-[0.625rem]  rounded-[0.75rem]">
+                        <p class="text-[0.75rem] font-[Inter] font-medium pb-[0.625rem] min-[1440px]:text-[1.5rem]">2022</p>
+                        <p class="text-[0.75rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]">Tweet Classifier</p>
                         <ul>
-                            <li>Brief: Analyze tweets and report their sentiment on a issue.</li>
-                            <li>Technologies: Python, Comet</li>
-                            <li>Responsibilities: Clean data, train models and make the predictions</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Brief:</strong> Analyze tweets and report their sentiment on a issue.</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Technologies:</strong> Python, Comet</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Responsibilities:</strong> Clean data, train models and make the predictions</li>
                         </ul>
                     </div>
-                    <div class="bg-white p-6 rounded-[12px]">
-                        <p>2022</p>
-                        <p>Regression Analysis</p>
+                    <div class="bg-[#E7F0EC] p-[0.625rem]  rounded-[0.75rem]">
+                        <p class="text-[0.75rem] font-[Inter] font-medium pb-[0.625rem] min-[1440px]:text-[1.5rem]">2022</p>
+                        <p class="text-[0.75rem] font-[Inter] font-medium min-[1440px]:text-[1.5rem]">Regression Analysis</p>
                         <ul>
-                            <li>Brief: Multivariate Analysis.</li>
-                            <li>Technologies: Python</li>
-                            <li>Responsibilities: Conduct a Exploratory Data Analysis, train models and make predictions</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Brief:</strong> Multivariate Analysis.</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Technologies:</strong> Python</li>
+                            <li class="text-[0.75rem] min-[1440px]:text-[1.1875rem]"><strong>Responsibilities:</strong> Conduct a Exploratory Data Analysis, train models and make predictions</li>
                         </ul>
                     </div>
                 </div>
@@ -150,183 +188,204 @@
         <!--==END OF PROJECTS SECTION ==-->
 
         <!--== EDUCATION & TOOLS SECTION==-->
-        <div class="bg-white p-6 rounded-[12px] my-4">
-            <h2 class="font text-[22px] font-[Inter] text-black text-left mb-4">Education</h2>
-            <div class="flex flex-col">
-                <div>
-                    
-                    <div class="flex justify-start">
-                        <div class="bg-emerald-600 p-6 rounded-[12px] flex">
-                            <div class="w-1/2 p-4">
-                                <p class="font-poppins text-tiny text-white">Sep. 2025 – Apr. 2026</p>
-                                <p class="font-[Poppins] text-[10px] font-medium text-[#ffffff]">CodeSpace Academy</p>
-                                <p class="font-poppins text-tiny text-white">Software Development | Part-time</p>
-
-                            </div>
-
-                            <div class="w-1/2 p-4">
-                                <ul>
-                                    <li class="font-poppins text-xxs text-[#ffffff]">Focused on React and JavaScript to build intuitive, dynamic web applications</li>
-                                    <li class="font-poppins text-xxs text-[#ffffff]">Collaborated with peers on real-world personal projects, reefing teamwork and coding best practices</li>
-                                    <li class="font-poppins text-xxs text-[#ffffff]">Gained hands-on-experience with cutting-edge web technologies and development tools</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="flex justify-start">
-                        <div class="bg-#ffffff p-6 rounded-[12px] flex">
-                            <div class="w-1/2 p-4">
-
-                                <p class="font-poppins text-tiny text-[#000000]">Feb. 2022 – Dec. 2022</p>
-                                <p class="font-[Poppins] text-[10px] font-medium text-[#000000]">ExploreAI </p>
-                                <p class="font-poppins text-tiny text-[#000000]"></p>Data Science | Full-time</p>
-                            </div>
-                    
-                            <div class="w-1/2 p-4">
-                                <ul>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Learned data analysis and statistical methods for interpreting datasets.</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Gained skills in Python, R, and SQL for data manipulation and visualization.</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Studied machine learning algorithms and model evaluation techniques.</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Applied data cleaning and preprocessing to ensure accuracy.</li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div>
+        <div class="flex flex-col gap-4 min-[1440px]:flex-row min-[1440px]:gap-6 max-w-7xl mx-auto p-0">
             
-                <div class="flex justify-start">
-                    <div class="bg-#ffffff p-6 rounded-[12px] flex">
-                        <div class="w-1/2 p-4">
-                            <p class="font-poppins text-tiny text-[#000000]">Feb. 2016 – Dec. 2020</p>
-                            <p class="font-[Poppins] text-[10px] font-medium text-[#000000]">University for the Witwatersrand</p>
-                            <p class="font-poppins text-tiny text-[#000000]">Bachelor of Economic Science | Full-time</p>
+            <div class="bg-white p-6 rounded-[12px] my-4 ">
+                <h2 class="font text-[0.875rem] font-[Inter] font-medium text-black text-left mb-[1rem] min-[1440px]:text-[2.125rem]">Education</h2>
+                <div class="flex flex-col gap-[1rem]">
+                    <div>
+                    
+                        <div class="flex justify-start">
+                            <div class="bg-[#4A8B70] p-[0.5rem] rounded-[12px] flex w-full">
+                                <div class="w-2/5 p-0">
+                                    <div class="flex justify-between">
+                                        <p class="font-poppins text-[0.5rem] text-white min-[1440px]:text-[1.1875rem] min-[1440px]:text-[1.1875rem]">Sep. 2025 – Apr. 2026</p>
+                                    
+
+                                    </div>
+                                        <p class="font-[Inter] font-medium text-[0.625rem] font-medium text-[#ffffff] min-[1440px]:text-[1.5rem]">CodeSpace Academy</p>
+                                        <p class="font-poppins text-[0.5rem] text-white min-[1440px]:text-[1.1875rem]">Software Development | Part-time</p>
+
+                                </div>
+
+                                <div class="w-3/5 p-0">
+                                    <ul class="list-disc">
+                                        <li class="font-poppins text-[0.5rem] text-[#ffffff] min-[1440px]:text-[1.1875rem]">Focused on React and JavaScript to build intuitive, dynamic web applications</li>
+                                        <li class="font-poppins text-[0.5rem] text-[#ffffff] min-[1440px]:text-[1.1875rem]">Collaborated with peers on real-world personal projects, reefing teamwork and coding best practices</li>
+                                        <li class="font-poppins text-[0.5rem] text-[#ffffff] min-[1440px]:text-[1.1875rem]">Gained hands-on-experience with cutting-edge web technologies and development tools</li>
+                                    </ul>
+                                </div>
+                            </div>
                         </div>
-                        <div class="w-1/2 p-4">
-                            <ul>
-                                <li class= "font-poppins text-xxs text-[#000000]">Majored in Computational & Applied Mathematics and Economic Science, focusing on quantitative analysis and problem-solving.</li>
-                                <li class= "font-poppins text-xxs text-[#000000]">Studied advanced mathematics (calculus, linear algebra, optimization) and economic theory (micro, macro, econometrics). </li>
-                                <li class= "font-poppins text-xxs text-[#000000]">Applied statistical and computational methods to economic modeling and data-driven decision-making.</li>
-                            </ul>
+                    </div>
+                    <div>
+                        <div class="flex justify-start">
+                            <div class="bg-[#E7F0EC] p-[0.5rem] rounded-[12px] flex w-full">
+                                <div class="w-2/5 p-0">
+
+                                    <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Feb. 2022 – Dec. 2022</p>
+                                    <p class="font-[Inter] font-medium text-[0.625rem] font-medium text-[#000000] min-[1440px]:text-[1.5rem]">ExploreAI </p>
+                                    <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Data Science | Full-time</p>
+                                </div>
+                    
+                                <div class="w-3/5 p-0">
+                                    <ul class="list-disc">
+                                        <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Learned data analysis and statistical methods for interpreting datasets.</li>
+                                        <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Gained skills in Python, R, and SQL for data manipulation and visualization.</li>
+                                        <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Studied machine learning algorithms and model evaluation techniques.</li>
+                                        <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Applied data cleaning and preprocessing to ensure accuracy.</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+            
+                    <div class="flex justify-start">
+                        <div class="bg-[#E7F0EC] p-[0.5rem] rounded-[12px] flex w-full" >
+                            <div class="w-2/5 p-0">
+                                <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Feb. 2016 – Dec. 2020</p>
+                                <p class="font-[Inter] font-medium text-[0.625rem] font-medium text-[#000000] min-[1440px]:text-[1.5rem]">University for the Witwatersrand</p>
+                                <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Bachelor of Economic Science | Full-time</p>
+                            </div>
+                            <div class="w-3/5 p-0">
+                                <ul class="list-disc">
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Majored in Computational & Applied Mathematics and Economic Science, focusing on quantitative analysis and problem-solving.</li>
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Studied advanced mathematics (calculus, linear algebra, optimization) and economic theory (micro, macro, econometrics). </li>
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Applied statistical and computational methods to economic modeling and data-driven decision-making.</li>
+                                </ul>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="bg-white p-6 rounded-[12px]">
-                <h2 class="font text-[22px] font-[Inter] text-black text-left mb-4">Tools</h2>
-                    <p>Design</p>
-                    <div>
-                         <ul class="no-bullets">
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></li>
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" /></li>
-                           <li></li>
-                        </ul> 
+            
+                
+            <div class="bg-white p-1 rounded-[12px]">
+                    <h2 class="font text-[0.875rem] font-[Inter] font-medium text-black text-center mb-[0.5rem] min-[1440px]:text-[2.125rem]">Tools</h2>
+                    <div class="flex flex-row gap-4 min-[1440px]:flex-col justify-center items-center px-5">
+                        <div>
+                            <p class="bg-black text-white text-center flex items-center justify-center px-[0.25rem] py-[0.25rem] rounded-full font text-[0.3125rem] w-[1.875rem] h-[0.6875rem] min-[1440px]:text-[0.5rem]">Design</p>
+                            <div class="bg-[#E7F0EC] p-[0.5rem] rounded-[12px] flex w-full h-full">
+                            <ul class=" grid grid-cols-2 gap-[1rem] no-bullets content-evenly">
+                               <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/figma/figma-original.svg" /></li>
+                               <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/google/google-original.svg" /></li>
+                               <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/xd/xd-original.svg" /></li>
+                               <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/canva/canva-original.svg"/></li>
+                            </ul>
+                            </div>
+                        </div>
+                        <div>
+                        
+                            <p class="bg-black text-white text-center flex items-center justify-center px-[0.25rem] py-[0.25rem] rounded-full font text-[0.3125rem] w-[1.875rem] h-[0.6875rem ] min-[1440px]:text-[0.5rem]">Software</p>
+                            <div class="bg-[#E7F0EC] p-[0.5rem] rounded-[12px] flex w-full h-full">
+                                <ul class="grid grid-cols-2 gap-[1rem] no-bullets content-evenly">
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></li>
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></li>
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" /></li>
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/anaconda/anaconda-original.svg" /></li>
+                                </ul>
 
 
-                    </div>
-                    <p>Software</p>
-                   <div>
-                         <ul class="no-bullets">
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/git/git-original.svg" /></li>
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></li>
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/visualstudio/visualstudio-original.svg" /></li>
-                        </ul>
+                            </div>
+                        </div>
+                        <div>
+                            <p class="bg-black text-white text-center flex items-center justify-center px-[0.25rem] py-[0.25rem] rounded-full font text-[0.3125rem] w-[1.875rem] h-[0.6875rem] min-[1440px]:text-[0.5rem]">Languages</p>
+                            <div class="bg-[#E7F0EC] p-[0.5rem] rounded-[12px] flex w-full h-full">
+                                <ul class="grid grid-cols-2 gap-[1rem] no-bullets content-between">
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></li>
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></li>
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /></li>
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></li>
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></li>
+                                   <li class="w-[1rem] h-[1rem]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" /></li>
+                                </ul>
 
 
-                    </div>
-                    <p>Languages</p>
-                    <div>
-                         <ul class="no-bullets">
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" /></li>
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" /></li>
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/tailwindcss/tailwindcss-original.svg" /></li>
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/python/python-original.svg" /></li>
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/azuresqldatabase/azuresqldatabase-original.svg" /></li>
-                           <li class="w-[17px] h-[17px]"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" /></li>
-                       </ul>
+                            </div>
+                        </div>
 
+                    </div>   
+            
+                
 
-                    </div>
-
-            </div>    
-
+            </div>
         </div>
 
         <!--== END OF EDUCATION & TOOLS SECTION-->
 
         <!--== EXPERIENCE SECTION ==-->
-            <div class="bg-white p-6 rounded-[12px] my-4">
-                <h2 class="font text-[22px] font-[Inter] text-black text-left mb-4">Experience</h2>
-                <div class="flex flex-col">
+        <div class="bg-white p-6 rounded-[12px] my-4">
+                <h2 class="font text-[0.875rem] font-[Inter] font-medium text-black text-left mb-[1rem] min-[1440px]:text-[2.125rem]">Experience</h2>
+                <div class="flex flex-col gap-[1rem]">
                     <div class="flex justify-start">
-                        <div class="bg-emerald-600 p-6 rounded-[12px] flex">
-                            <div class = "w-1/2 p-4">
-                                <p class="font-poppins text-tiny text-white">Sep. 2025 – present </p>
-                                <p class="font-[Poppins] text-[10px] font-medium text-[#ffffff]">YES Employee</p>
-                                <p class="font-poppins text-tiny text-white">Eskom Majuba Power Station | Full-time</p>
+                        <div class="bg-[#4A8B70] p-[0.5rem] rounded-[12px] flex w-full">
+                            <div class = "w-2/5 p-0">
+                                <p class="font-poppins text-[0.5rem] text-white min-[1440px]:text-[1.1875rem]">Sep. 2025 – present </p>
+                                <p class="font-[Inter] font-medium text-[0.625rem] font-medium text-[#ffffff] min-[1440px]:text-[1.5rem]">YES Employee</p>
+                                <p class="font-poppins text-[0.5rem] text-white min-[1440px]:text-[1.1875rem]">Eskom Majuba Power Station | Full-time</p>
                             </div>
-                            <div>
-                                <ul>
-                                    <li class="font-poppins text-xxs text-[#ffffff]">Manage day-to-day office operations by coordinating schedules, handling correspondence, and maintaining organized records to support smooth workflow. </li>
-                                    <li class="font-poppins text-xxs text-[#ffffff]">Provide administrative assistance including preparing reports, managing documentation, and supporting internal communication for efficient workplace functioning.</li>
-                                    <li class="font-poppins text-xxs text-[#ffffff]">Ensure operational efficiency by implementing office procedures, monitoring supplies, and liaising with staff and external stakeholders as needed.</li>
+                            <div class = "w-3/5 p-0">
+                                <ul class="list-disc">
+                                    <li class="font-poppins text-[0.5rem] text-[#ffffff] min-[1440px]:text-[1.1875rem]">Manage day-to-day office operations by coordinating schedules, handling correspondence, and maintaining organized records to support smooth workflow. </li>
+                                    <li class="font-poppins text-[0.5rem] text-[#ffffff] min-[1440px]:text-[1.1875rem]">Provide administrative assistance including preparing reports, managing documentation, and supporting internal communication for efficient workplace functioning.</li>
+                                    <li class="font-poppins text-[0.5rem] text-[#ffffff] min-[1440px]:text-[1.1875rem]">Ensure operational efficiency by implementing office procedures, monitoring supplies, and liaising with staff and external stakeholders as needed.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                     <div class="flex justify-start">
-                        <div class="bg-#ffffff p-6 rounded-[12px] flex">
-                            <div class = "w-1/2 p-4">
-                                <p class="font-poppins text-tiny text-[#000000]">Feb. 2025 – Aug 2025 </p>
-                                <p class="font-[Poppins] text-[10px] font-medium text-[#000000]">General Labourer</p>
-                                <p class="font-poppins text-tiny text-[#000000]">Magogudi Construction Projects | Full-time</p>
+                        <div class="bg-[#E7F0EC] p-[0.5rem] rounded-[12px] flex w-full">
+                            <div class = "w-2/5 p-0">
+                                <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Feb. 2025 – Aug 2025 </p>
+                                <p class="font-[Inter] font-medium text-[0.625rem] font-medium text-[#000000] min-[1440px]:text-[1.5rem]">General Labourer</p>
+                                <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Magogudi Construction Projects | Full-time</p>
                             </div>
-                            <div>
-                                <ul>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Perform routine and deep cleaning tasks across all plant areas to maintain a safe, hygienic, and compliant environment.</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Conduct preventive maintenance and minor repairs on equipment and facilities to ensure operational readiness and minimize downtime.</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Monitor and uphold hygiene and safety standards by following established protocols and reporting any issues or hazards promptly.</li>
+                            <div class = "w-3/5 p-0">
+                                <ul class="list-disc">
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Perform routine and deep cleaning tasks across all plant areas to maintain a safe, hygienic, and compliant environment.</li>
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Conduct preventive maintenance and minor repairs on equipment and facilities to ensure operational readiness and minimize downtime.</li>
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Monitor and uphold hygiene and safety standards by following established protocols and reporting any issues or hazards promptly.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
             
                     <div class="flex justify-start">
-                        <div class="bg-#ffffff p-6 rounded-[12px] flex">
-                            <div class = "w-1/2 p-4">
-                                <p class="font-poppins text-tiny text-[#000000]">Dec 2022 – Sep 2022 </p>
-                                <p class="font-[Poppins] text-[10px] font-medium text-[#000000]">Data Science Intern</p>
-                                <p class="font-poppins text-tiny text-[#000000]">BCX | Full-time</p>
+                        <div class="bg-[#E7F0EC] p-[0.5rem] rounded-[12px] flex w-full">
+                            <div class = "w-2/5 p-0">
+                                <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Dec 2022 – Sep 2022 </p>
+                                <p class="font-[Inter] font-medium text-[0.625rem] font-medium text-[#000000] min-[1440px]:text-[1.5rem]">Data Science Intern</p>
+                                <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">BCX | Full-time</p>
                             </div>
-                            <div>
-                                <ul>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Gather and clean financial data</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Working in a team together we forecasted Telkom group cash flow for the next financial year using machine learning</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Using dashboards displayed the forecasted accounts interactively.</li>
+                            <div class = "w-3/5 p-0">
+                                <ul class="list-disc">
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Gather and clean financial data</li>
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Working in a team together we forecasted Telkom group cash flow for the next financial year using machine learning</li>
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Using dashboards displayed the forecasted accounts interactively.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 
                     <div class="flex jutify-start">
-                        <div class="bg-#ffffff p-6 rounded-[12px] flex">
-                            <div class = "w-1/2 p-4">
-                                <p class="font-poppins text-tiny text-[#000000]">Aug 2022 - Jan 2022 </p>
-                                <p class="font-[Poppins] text-[10px] font-medium text-[#000000]">Data Science Intern</p>
-                                <p class="font-poppins text-tiny text-[#000000]">ExploreAI | Full-time</p>
+                        <div class="bg-[#E7F0EC] p-[0.5rem] rounded-[12px] flex w-full">
+                            <div class = "w-2/5 p-0">
+                                <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Aug 2022 - Jan 2022 </p>
+                                <p class="font-[Inter] font-medium text-[0.625rem] font-medium text-[#000000] min-[1440px]:text-[1.5rem]">Data Science Intern</p>
+                                <p class="font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">ExploreAI | Full-time</p>
                             </div>
-                            <div>
-                                <ul>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Create interactive dashboards using PowerBI</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Querying databases using SQL</li>
-                                    <li class= "font-poppins text-xxs text-[#000000]">Using machine learning to solve real-life problems such as using a regression model to predict the electricity shortfall in Spain, testing climate change sentiment using tweet data, identifying South African languages using classification, and creating a movie recommendation system.</li>
+                            <div class = "w-3/5 p-0">
+                                <ul class="list-disc">
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Create interactive dashboards using PowerBI</li>
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Querying databases using SQL</li>
+                                    <li class= "font-poppins text-[0.5rem] text-[#000000] min-[1440px]:text-[1.1875rem]">Using machine learning to solve real-life problems such as using a regression model to predict the electricity shortfall in Spain, testing climate change sentiment using tweet data, identifying South African languages using classification, and creating a movie recommendation system.</li>
                                 </ul>
                             </div>
                         </div>
                     </div>
                 </div>
+        </div>
 
 
 
@@ -335,20 +394,24 @@
 
 
         <footer>
-            <div class="bg-[#D76239] text-white p-4 rounded-md my-4">
+            <div class="bg-[#D76239] text-white p-[1rem] rounded-md my-4">
 
             <!--== CONTACT SECTION ==-->
-                <h2 class="font text-[22px] font-[Inter] text-white text-left mb-4">Let’s chat! I’m ready to work on exciting projects.</h2>
-                <p>phuthumamavuso@gmail | 0785542676</p>
+                <h2 class="font-[Inter] font-medium font text-[0.875rem] font-[Inter] text-white text-left mb-4 block max-[1440px]:block min-[1439px]:hidden text">Let’s chat! I’m ready to work on exciting projects.</h2>
+                <h2 class="hidden xl:block text-[2.125rem] font-[Inter] font-normal font-medium font-weight[400] text-[#ffffff]">Let’s chat! I’m ready to work on exciting projects.</h2>
+
+                <p class="font-poppins text-[0.5rem] text-[#DDDDDD] block max-[1440px]:block min-[1439px]:hidden text-[#4A4A4A]">phuthumamavuso@gmail | 0785542676</p>
+                <p class="hidden xl:block text-[1.5625rem] font-[Inter] font-normal font-weight[400] text-[#DDDDDD]">phuthumamavuso@gmail | 0785542676 | LinkedIn Link | Github Link</p>
+
 
             </div>
             <!--== END OF CONTACT SECTION-->
 
         </footer>
     </div>
+</div>
 
 </body>
 
 
-</body>
 </html>
